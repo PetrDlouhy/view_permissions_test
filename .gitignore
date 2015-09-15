@@ -1,0 +1,8 @@
+*.py[co]
+!.gitkeep
+/env/
+*~
+*.swp
+*.diff
+*.rej
+*.orig

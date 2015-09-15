@@ -1,0 +1,1 @@
+-e git+https://github.com/PetrDlouhy/django.git@asdf#egg=Django
