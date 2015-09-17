@@ -8,9 +8,11 @@ class ChoiceInline(admin.TabularInline):
 class QuestionAdmin(admin.ModelAdmin):
     inlines = ( ChoiceInline, )
     list_display = ('question_text', 'pub_date')
+    save_as = True
 
 class ChoiceAdmin(admin.ModelAdmin):
     list_display = ('question', 'choice_text', 'votes')
+    list_editable = ('choice_text', 'votes')
 
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice, ChoiceAdmin)

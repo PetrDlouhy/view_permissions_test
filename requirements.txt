@@ -1,1 +1,1 @@
--e git+https://github.com/PetrDlouhy/django.git@asdf#egg=Django
+-e git+https://github.com/PetrDlouhy/django.git@view_permission_master#egg=Django
